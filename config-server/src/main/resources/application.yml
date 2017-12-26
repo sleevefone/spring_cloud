@@ -14,3 +14,16 @@ spring:
           search-paths: doc                             # git仓库地址下的相对地址，可以配置多个，用,分割。
           username: 522400740@qq.com                                        # git仓库的账号
           password: qepewqa123
+management:
+  security:
+    enabled: false
+#     http://localhost:8040/env 可以看到配置信息
+#    "applicationConfig: [classpath:/application.yml]": {
+#    "server.port": 8040,
+#    "spring.application.name": "spring-cloud-config-server",
+#    "spring.cloud.config.server.git.uri": "https://github.com/sleevefone/algorithm_bi_search.git",
+#    "spring.cloud.config.server.git.search-paths": "doc",
+#    "spring.cloud.config.server.git.username": "522400740@qq.com",
+#    "spring.cloud.config.server.git.password": "******",
+#    "management.security.enabled": false
+#    },
